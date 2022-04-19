@@ -1,0 +1,75 @@
+#header{
+  border:1px solid transparent;
+  height:100px;
+  color:black;
+  position:fixed;
+  width: 100%;
+}
+
+#bathcontainer {
+    padding-top: 140px;
+    width: 96%;
+    margin: auto;
+    text-align: center;
+    /* margin-bottom: -10%; */
+  /* border:1px solid blue; */
+  }
+  body{
+    font-family: ZH-Sans,Arial,'Lucida Sans Unicode',sans-serif;
+    color: #515151;
+    font-size: 80%;
+    word-spacing: 2px;
+
+    /* width: 100%;
+    margin: auto; */
+  }
+  body::-webkit-scrollbar {
+    width: 9px;
+  }  
+  body::-webkit-scrollbar-thumb {
+      background: rgb(26, 26, 26); 
+      /* border-radius: 10px; */
+      border: 2px solid white;
+    }
+  body::-webkit-scrollbar-thumb:hover {
+      background: rgb(26, 26, 26);
+    }
+  #bathcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 32%);
+    grid-template-rows:repeat(8, 450px);
+    grid-gap: 2%;
+  margin-bottom: 0px;
+      /* position: relative; */
+  }
+ 
+  button{
+    background-color: transparent;
+    color: transparent;
+    width: 100%;
+    text-align: center;
+    padding: 13px;
+    cursor: pointer;
+  border: 1px solid transparent;
+  }
+  button:hover{
+    background-color: black;
+    color: white;
+    border: transparent;
+  }
+  image{
+    width: 100%;
+  }
+  
+  #buttondiv{
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  #footer{
+    margin-top: 8%;
+    /* border:1px solid red; */
+  }
+  
+  
